@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    background-color: #f5f5f5;
+}
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    padding:0;
+    height: 70px;
+    background-color: #333;
+    color: white;
+}
+
+.container-fluid {
+    display: flex;
+    margin:0;
+    width: 1400px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.col {
+    height: 350px;
+    width: 30%; /* Adjusted to ensure proper spacing */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+}
+
+.signup {
+    text-align: center;
+    font-size: 20px;
+    padding:  0;
+    height: 70px;
+    background-color: aqua;
+}
+.content{
+    text-align: center;
+    font-size: 20px;
+    padding:  0;
+    height: 70px;
+    background-color: rgb(179, 22, 30);
+}
